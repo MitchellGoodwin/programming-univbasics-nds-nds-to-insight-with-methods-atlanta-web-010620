@@ -11,7 +11,7 @@ def directors_totals(nds)
   while outer_index < nds.length do
     director_name = nds[outer_index][:name]
     earnings = gross_for_director(nds[outer_index][:movies])
-    
+    result[director_name] = earnings
   nil
 end
 
