@@ -12,6 +12,9 @@ def directors_totals(nds)
     director_name = nds[outer_index][:name]
     earnings = gross_for_director(nds[outer_index][:movies])
     result[director_name] = earnings
+    outer_index += 1 
+  end
+  return result
   nil
 end
 
