@@ -5,6 +5,8 @@ require 'directors_database'
 #
 # { directorOne => allTheMoneyTheyMade, ... }
 
+pp directors_database
+
 def directors_totals(nds)
   result = {}
   outer_index = 0 
